@@ -1,0 +1,32 @@
+{
+  "name": "seneca-getting-started",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anara123/seneca-getting-started.git"
+  },
+  "keywords": [
+    "microservices",
+    "node",
+    "seneca"
+  ],
+  "author": "Anar Azadaliyev <anar.azadaliyev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anara123/seneca-getting-started/issues"
+  },
+  "homepage": "https://github.com/anara123/seneca-getting-started",
+  "dependencies": {
+    "@risingstack/trace": "^1.7.5",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.0.5",
+    "seneca": "^0.6.5",
+    "seneca-user": "^0.2.10"
+  }
+}
